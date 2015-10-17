@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget31"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/bg_gradient"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    
+     
+ <TextView
+        android:id="@+id/txtSpeechInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:textStyle="normal" />
+  
+    <SeekBar
+        android:id="@+id/SeekBar01"
+        android:layout_width="fill_parent"
+        
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/ButtonPlayStop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        
+        android:text="@string/play_str"
+        android:textSize="15pt"
+        android:textStyle="bold" />
+
+</RelativeLayout>
